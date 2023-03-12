@@ -1,6 +1,6 @@
 @echo off
 taskkill /f /im Telegram.exe
-timeout 1 /nobreak
+timeout 2 /nobreak
 RD /S /Q R:\Temp\Telegram-base
 RD /S /Q "E:\Apps\Telegram\tdata\user_data"
 RD /S /Q "E:\Apps\Telegram\tdata\dumps"
